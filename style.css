@@ -2298,6 +2298,10 @@ html[dir="rtl"] .payment-method-option input {
   text-align: center !important;
 }
 
+.product-sale-line {
+  display: none !important;
+}
+
 @media (max-width: 620px) {
   .checkout-total-box {
     width: min(100%, 280px) !important;
