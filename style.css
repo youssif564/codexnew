@@ -2265,3 +2265,46 @@ html[dir="rtl"] .payment-method-option input {
     bottom: 18px !important;
   }
 }
+
+/* ===== Center checkout receipt totals ===== */
+.checkout-total-box {
+  width: min(100%, 310px) !important;
+  margin: 10px auto 14px !important;
+  text-align: center !important;
+}
+
+.checkout-total-row {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+  align-items: baseline !important;
+  gap: 14px !important;
+}
+
+.checkout-total-row span,
+.checkout-total-row strong {
+  text-align: center !important;
+}
+
+.checkout-total-final {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+  align-items: baseline !important;
+  gap: 14px !important;
+}
+
+.checkout-total-final span,
+.checkout-total-final strong {
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+@media (max-width: 620px) {
+  .checkout-total-box {
+    width: min(100%, 280px) !important;
+  }
+
+  .checkout-total-row,
+  .checkout-total-final {
+    gap: 10px !important;
+  }
+}
