@@ -827,9 +827,22 @@ Notes: ${notes}`);
 }
 
 function setupPremiumSectionOrder() {
+  document.querySelector(".why-modo-section")?.remove();
   document.querySelector(".ugc-section")?.remove();
   document.querySelector(".comparison-section")?.remove();
   document.querySelector(".comparison-in-why")?.remove();
+}
+
+function setupHeroVideoControls() {
+  const card = document.getElementById("heroVideoCard");
+  const close = card?.querySelector(".hero-video-close");
+  const video = card?.querySelector("video");
+  if (!card || !close) return;
+
+  close.addEventListener("click", () => {
+    if (video) video.pause();
+    card.hidden = true;
+  });
 }
 
 document.getElementById("langToggle")?.addEventListener("click", () => {
@@ -842,6 +855,7 @@ window.chooseProduct = chooseProduct;
 
 applyTranslations();
 setupPremiumSectionOrder();
+setupHeroVideoControls();
 setupGallery();
 setupMenu();
 setupReveal();
