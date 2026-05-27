@@ -2584,6 +2584,20 @@ html[dir="ltr"] .nav-actions {
   }
 }
 
+/* ===== Keep browser autofill inside MODO dark UI ===== */
+.order-form input:-webkit-autofill,
+.order-form input:-webkit-autofill:hover,
+.order-form input:-webkit-autofill:focus,
+.order-form textarea:-webkit-autofill,
+.order-form textarea:-webkit-autofill:hover,
+.order-form textarea:-webkit-autofill:focus {
+  -webkit-text-fill-color: #fff !important;
+  caret-color: #fff !important;
+  box-shadow: 0 0 0 1000px rgba(255,255,255,.035) inset !important;
+  border-color: rgba(255,255,255,.12) !important;
+  transition: background-color 9999s ease-in-out 0s !important;
+}
+
 /* ===== Checkout summary readable layout ===== */
 .checkout-total-box {
   width: min(100%, 430px) !important;
@@ -2770,4 +2784,3 @@ html[dir="rtl"] .checkout-total-final strong {
     font-size: 1.36rem !important;
   }
 }
-
