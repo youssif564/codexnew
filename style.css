@@ -2598,6 +2598,40 @@ html[dir="ltr"] .nav-actions {
   transition: background-color 9999s ease-in-out 0s !important;
 }
 
+/* ===== Desktop product card alignment ===== */
+@media (min-width: 981px) {
+  .products-grid {
+    align-items: stretch !important;
+  }
+
+  .product-card {
+    height: 100%;
+    min-height: 650px;
+  }
+
+  .product-card img {
+    aspect-ratio: 1.18 / 1;
+  }
+
+  .product-features {
+    min-height: 142px;
+  }
+
+  .premium-more {
+    min-height: 46px;
+  }
+
+  .price-row {
+    justify-content: center;
+    min-height: 44px;
+    margin-top: auto !important;
+  }
+
+  .choose-btn {
+    margin-top: 0;
+  }
+}
+
 /* ===== Checkout summary readable layout ===== */
 .checkout-total-box {
   width: min(100%, 430px) !important;
