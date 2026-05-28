@@ -2679,6 +2679,40 @@ html[dir="ltr"] .nav-actions {
   }
 }
 
+/* ===== Desktop reviews stack layout ===== */
+@media (min-width: 981px) {
+  .proof-layout {
+    grid-template-columns: 1fr !important;
+    max-width: 980px;
+    margin-inline: auto;
+    gap: 30px !important;
+  }
+
+  .proof-layout .section-copy {
+    max-width: 760px;
+    margin-inline: auto;
+    text-align: center;
+  }
+
+  .proof-layout .section-copy > span {
+    margin-inline: auto;
+  }
+
+  .proof-layout .write-review-toggle {
+    margin-inline: auto !important;
+  }
+
+  .reviews-live {
+    width: min(100%, 760px);
+    margin-inline: auto;
+  }
+
+  .reviews-grid.compact-one {
+    max-width: 430px;
+    margin-inline: auto;
+  }
+}
+
 /* ===== Checkout summary readable layout ===== */
 .checkout-total-box {
   width: min(100%, 430px) !important;
