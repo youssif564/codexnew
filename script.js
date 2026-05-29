@@ -170,7 +170,7 @@ const translations = {
     reviewsEyebrow: "آراء العملاء", reviewsTitle: "ثقة حقيقية مش كلام كتير", reviewsSubtitle: "كل التقييمات ظاهرة، ومعاها الصور لو العميل رفع صورة للمنتج.", latestReviews: "كل التقييمات", viewAllReviews: "عرض كل التقييمات", showLessReviews: "عرض أقل", writeReviewTitle: "اكتب تقييمك",
     reviewNameLabel: "الاسم", reviewCityLabel: "المدينة", reviewRatingLabel: "التقييم", reviewTextLabel: "رأيك في المنتج", reviewImageLabel: "صورة اختيارية للمنتج", submitReview: "نشر التقييم مباشرة", reviewStatusReady: "التقييم سيظهر مباشرة بعد النشر.",
     conversionBandEyebrow: "عرض الإطلاق", conversionBandTitle: "اختار محفظتك الآن وادفع عند الاستلام", conversionBandText: "السعر الحالي لفترة محدودة، والتأكيد بيتم على واتساب قبل الشحن.", conversionBandCTA: "كمّل الطلب",
-    orderEyebrow: "اطلب بأمان", orderTitle: "بيانات الطلب", orderSubtitle: "هنفتح واتساب فورًا لتأكيد الطلب.", orderUrgency: "العرض الحالي محدود. احجز السعر قبل انتهاء أول 25 قطعة.", selectedLabel: "الموديل المختار", formProduct: "اختار المنتج", formName: "الاسم", formPhone: "رقم الموبايل", formAddress: "العنوان بالتفصيل", formDeliveryRegion: "منطقة التوصيل", formPayment: "طريقة الدفع", formNotes: "ملاحظات اختيارية", paymentCOD: "الدفع عند الاستلام", submitOrder: "إرسال الطلب", orderSuccess: "تم تأكيد طلبك", formNote: "بياناتك تستخدم لتأكيد الطلب فقط.",
+    orderEyebrow: "اطلب بأمان", orderTitle: "بيانات الطلب", orderSubtitle: "هنفتح واتساب فورًا لتأكيد الطلب.", orderUrgency: "العرض الحالي محدود. احجز السعر قبل انتهاء أول 25 قطعة.", selectedLabel: "الموديل المختار", formProduct: "اختار المنتج", formName: "الاسم", formPhone: "رقم الموبايل", formAddress: "العنوان بالتفصيل", formDeliveryRegion: "منطقة التوصيل", formPayment: "طريقة الدفع", formNotes: "ملاحظات اختيارية", paymentCOD: "الدفع عند الاستلام", submitOrder: "إرسال الطلب", orderSuccess: "تم تأكيد طلبك", formNote: "بياناتك تستخدم لتأكيد الطلب فقط.", checkoutStepDetails: "بياناتك", checkoutStepDelivery: "التوصيل والدفع", checkoutStepConfirm: "تأكيد واتساب", checkoutProductTitle: "الموديل المختار", checkoutCustomerTitle: "بيانات العميل", checkoutDeliveryTitle: "التوصيل والدفع", checkoutReviewTitle: "مراجعة الطلب", checkoutConfirmNote: "بعد الضغط، هيفتح واتساب برسالة الطلب جاهزة للتأكيد.",
     deliveryCairoGiza: "القاهرة والجيزة — 99 جنيه", deliveryAlex: "الإسكندرية — 120 جنيه", deliveryDeltaCanal: "الدلتا والقناة — 125 جنيه", deliveryAssiut: "أسيوط — 200 جنيه", deliveryNorthCoast: "الساحل الشمالي — 220 جنيه", checkoutTotalLabel: "إجمالي السعر شامل التوصيل", premiumFreeDeliveryCheckout: "توصيل مجاني مع Modo Premium Wallet",
     footerAbout: "محافظ جلد طبيعي 100% ضد الضياع بإحساس آمن وفاخر.", footerContact: "التواصل", footerSocial: "تابعنا", copyright: "© 2026 Modo Smart Wallets. جميع الحقوق محفوظة.", stickyCTA: "اطلب الآن",
     pageTopStrip: "ضد الضياع / طلب آمن / جلد طبيعي 100%",
@@ -206,7 +206,7 @@ const translations = {
     reviewsEyebrow: "Customer reviews", reviewsTitle: "Real trust, less noise", reviewsSubtitle: "All reviews are visible, including product photos when customers upload them.", latestReviews: "All reviews", viewAllReviews: "View all reviews", showLessReviews: "Show less", writeReviewTitle: "Write your review",
     reviewNameLabel: "Name", reviewCityLabel: "City", reviewRatingLabel: "Rating", reviewTextLabel: "Your review", reviewImageLabel: "Optional product photo", submitReview: "Publish review live", reviewStatusReady: "Your review will appear after publishing.",
     conversionBandEyebrow: "Launch offer", conversionBandTitle: "Choose your wallet now and pay on delivery", conversionBandText: "Current pricing is limited, and your order is confirmed on WhatsApp before shipping.", conversionBandCTA: "Complete order",
-    orderEyebrow: "Order safely", orderTitle: "Order details", orderSubtitle: "WhatsApp opens immediately to confirm your order.", orderUrgency: "The current offer is limited. Reserve the price before the first 25 pieces end.", selectedLabel: "Selected model", formProduct: "Choose product", formName: "Name", formPhone: "Phone number", formAddress: "Detailed address", formDeliveryRegion: "Delivery area", formPayment: "Payment method", formNotes: "Optional notes", paymentCOD: "Cash on Delivery", submitOrder: "Send order", orderSuccess: "Your order is confirmed", formNote: "Your details are used only to confirm the order.",
+    orderEyebrow: "Order safely", orderTitle: "Order details", orderSubtitle: "WhatsApp opens immediately to confirm your order.", orderUrgency: "The current offer is limited. Reserve the price before the first 25 pieces end.", selectedLabel: "Selected model", formProduct: "Choose product", formName: "Name", formPhone: "Phone number", formAddress: "Detailed address", formDeliveryRegion: "Delivery area", formPayment: "Payment method", formNotes: "Optional notes", paymentCOD: "Cash on Delivery", submitOrder: "Send order", orderSuccess: "Your order is confirmed", formNote: "Your details are used only to confirm the order.", checkoutStepDetails: "Your details", checkoutStepDelivery: "Delivery & payment", checkoutStepConfirm: "WhatsApp confirm", checkoutProductTitle: "Selected model", checkoutCustomerTitle: "Customer details", checkoutDeliveryTitle: "Delivery & payment", checkoutReviewTitle: "Order review", checkoutConfirmNote: "After pressing, WhatsApp opens with your order message ready to confirm.",
     deliveryCairoGiza: "Cairo & Giza — 99 EGP", deliveryAlex: "Alexandria — 120 EGP", deliveryDeltaCanal: "Delta & Canal — 125 EGP", deliveryAssiut: "Assiut — 200 EGP", deliveryNorthCoast: "North Coast — 220 EGP", checkoutTotalLabel: "Total including delivery", premiumFreeDeliveryCheckout: "Free delivery with Modo Premium Wallet",
     footerAbout: "Anti-loss 100% natural leather wallets with a safer premium feel.", footerContact: "Contact", footerSocial: "Follow us", copyright: "© 2026 Modo Smart Wallets. All rights reserved.", stickyCTA: "Order now",
     pageTopStrip: "Anti-loss / Safe / 100% Natural Leather",
@@ -507,11 +507,6 @@ function renderProducts() {
         <ul class="product-features">${d.features.map(feature => `<li>${feature}</li>`).join("")}</ul>
         ${premiumMore}
         <div class="price-row"><span class="new-price">${money(product.price)}</span><span class="old-price">${money(product.oldPrice)}</span></div>
-        <div class="product-sale-line">
-          <strong>${t("saveLabel")} ${money(product.oldPrice - product.price)}</strong>
-          <span>${t("productCODLine")}</span>
-          <span>${product.id === "premium" ? t("premiumFreeDelivery") : t("productDeliveryLine")}</span>
-        </div>
         <button class="btn btn-primary choose-btn" type="button" data-product-id="${product.id}">${t("chooseProduct")}</button>
       </article>
     `;
@@ -918,6 +913,82 @@ function setupPremiumSectionOrder() {
   document.querySelector(".comparison-in-why")?.remove();
 }
 
+function createCheckoutSectionTitle(number, key) {
+  const title = document.createElement("div");
+  title.className = "checkout-section-title";
+  title.innerHTML = `<span>${number}</span><h2 data-i18n="${key}">${t(key)}</h2>`;
+  return title;
+}
+
+function setupCheckoutClarity() {
+  const form = document.getElementById("orderForm");
+  if (!isCheckoutPage() || !form || form.dataset.clarityReady) return;
+  form.dataset.clarityReady = "true";
+
+  const selectedCard = document.getElementById("selectedProductCard");
+  selectedCard?.insertAdjacentElement("beforebegin", createCheckoutSectionTitle("01", "checkoutProductTitle"));
+
+  const customerGrid = document.getElementById("customerName")?.closest(".form-grid");
+  customerGrid?.insertAdjacentElement("beforebegin", createCheckoutSectionTitle("02", "checkoutCustomerTitle"));
+
+  const deliveryGrid = document.getElementById("deliveryRegion")?.closest(".form-grid");
+  deliveryGrid?.insertAdjacentElement("beforebegin", createCheckoutSectionTitle("03", "checkoutDeliveryTitle"));
+
+  const totalBox = document.getElementById("checkoutTotalBox");
+  totalBox?.insertAdjacentElement("beforebegin", createCheckoutSectionTitle("04", "checkoutReviewTitle"));
+
+  const submit = form.querySelector(".order-submit");
+  if (submit && !document.getElementById("checkoutConfirmNote")) {
+    const note = document.createElement("p");
+    note.id = "checkoutConfirmNote";
+    note.className = "checkout-confirm-note";
+    note.dataset.i18n = "checkoutConfirmNote";
+    note.textContent = t("checkoutConfirmNote");
+    submit.insertAdjacentElement("afterend", note);
+  }
+}
+
+function setupCheckoutDesktopSummaryPlacement() {
+  const form = document.getElementById("orderForm");
+  const totalBox = document.getElementById("checkoutTotalBox");
+  const deliverySelect = document.getElementById("deliveryRegion");
+  const paymentSelect = document.getElementById("paymentMethod");
+  if (!isCheckoutPage() || !form || !totalBox || !deliverySelect) return;
+
+  const deliveryColumn = deliverySelect.closest(".form-grid > div");
+  const paymentColumn = paymentSelect?.closest(".form-grid > div");
+  if (!deliveryColumn) return;
+
+  deliveryColumn.classList.add("checkout-delivery-column");
+  paymentColumn?.classList.add("checkout-payment-column");
+
+  let marker = document.getElementById("checkoutTotalOriginalMarker");
+  const reviewTitle = Array.from(form.querySelectorAll(".checkout-section-title"))
+    .find(title => title.querySelector('[data-i18n="checkoutReviewTitle"]'));
+
+  if (!marker) {
+    marker = document.createElement("span");
+    marker.id = "checkoutTotalOriginalMarker";
+    marker.hidden = true;
+    (reviewTitle || totalBox).insertAdjacentElement("beforebegin", marker);
+  }
+
+  function placeSummary() {
+    const isDesktop = window.matchMedia("(min-width: 981px)").matches;
+    if (isDesktop) {
+      if (reviewTitle) deliveryColumn.appendChild(reviewTitle);
+      deliveryColumn.appendChild(totalBox);
+    } else {
+      if (reviewTitle) marker.insertAdjacentElement("afterend", reviewTitle);
+      if (reviewTitle) reviewTitle.insertAdjacentElement("afterend", totalBox);
+      else marker.insertAdjacentElement("afterend", totalBox);
+    }
+  }
+
+  placeSummary();
+  window.addEventListener("resize", placeSummary);
+}
+
 function setupHeroVideoControls() {
   const card = document.getElementById("heroVideoCard");
   const close = card?.querySelector(".hero-video-close");
@@ -943,6 +1014,8 @@ if (requestedProduct && products.some(product => product.id === requestedProduct
   selectedProductId = requestedProduct;
 }
 
+setupCheckoutClarity();
+setupCheckoutDesktopSummaryPlacement();
 applyTranslations();
 setupPremiumSectionOrder();
 setupHeroVideoControls();
@@ -953,3 +1026,4 @@ setupReviews();
 initLiveReviews();
 setupStickyCtaVisibility();
 setupOrderForm();
+
