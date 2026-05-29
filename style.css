@@ -3117,3 +3117,95 @@ html[dir="rtl"] .checkout-total-final strong {
     height: 270px;
   }
 }
+
+/* ===== PC checkout summary uses empty delivery space ===== */
+@media (min-width: 981px) {
+  .checkout-standalone .form-grid:has(#deliveryRegion) {
+    align-items: start;
+    column-gap: 18px;
+  }
+
+  .checkout-delivery-column,
+  .checkout-payment-column {
+    display: grid;
+    align-content: start;
+  }
+
+  .checkout-delivery-column .checkout-section-title {
+    display: none !important;
+  }
+
+  .checkout-delivery-column .premium-free-delivery-note {
+    margin: 14px 0 0 !important;
+  }
+
+  .checkout-delivery-column .checkout-total-box {
+    width: 100% !important;
+    margin: 18px 0 0 !important;
+    padding: 18px 20px !important;
+    border-radius: 22px !important;
+    background:
+      linear-gradient(145deg, rgba(255,214,119,.07), rgba(255,255,255,.025)),
+      #101010 !important;
+    border: 1px solid rgba(255,214,119,.18) !important;
+    box-shadow: 0 18px 42px rgba(0,0,0,.32) !important;
+    gap: 0 !important;
+  }
+
+  .checkout-delivery-column .checkout-total-row {
+    min-height: 42px !important;
+    display: flex !important;
+    align-items: baseline !important;
+    justify-content: space-between !important;
+    gap: 20px !important;
+    padding: 0 !important;
+    border: 0 !important;
+  }
+
+  .checkout-delivery-column .checkout-total-row span {
+    color: rgba(255,255,255,.76) !important;
+    font-size: .98rem !important;
+    font-weight: 850 !important;
+  }
+
+  .checkout-delivery-column .checkout-total-row strong {
+    color: #fff !important;
+    font-size: 1.05rem !important;
+    font-weight: 950 !important;
+  }
+
+  .checkout-delivery-column .checkout-total-final {
+    margin-top: 12px !important;
+    padding: 16px 0 0 !important;
+    background: transparent !important;
+    border: 0 !important;
+    border-top: 1px solid rgba(255,255,255,.13) !important;
+    border-radius: 0 !important;
+  }
+
+  .checkout-delivery-column .checkout-total-final span {
+    color: #fff !important;
+    font-size: 1.45rem !important;
+    font-weight: 950 !important;
+  }
+
+  .checkout-delivery-column .checkout-total-final strong {
+    color: var(--modo-gold) !important;
+    font-size: 1.72rem !important;
+    font-weight: 950 !important;
+  }
+
+  .checkout-delivery-column .checkout-total-final b {
+    color: var(--modo-gold) !important;
+  }
+
+  .checkout-payment-column .payment-method-list {
+    max-width: none !important;
+  }
+
+  .checkout-payment-column .payment-method-option {
+    min-height: 72px !important;
+    padding: 14px 16px !important;
+    border-radius: 18px !important;
+  }
+}
